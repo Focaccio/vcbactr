@@ -15,3 +15,6 @@ cisco = {
 net_connect = ConnectHandler(**cisco)
 output = net_connect.send_command("show ip int brief")
 print(output)
+
+output = net_connect.send_command("sh ver | i up")
+print(output)
