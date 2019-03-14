@@ -1,4 +1,4 @@
-
+#rc=recode i.e. not gafc / not greg (good) af (areaf) code
 from __future__ import print_function
 import argparse
 import commands
