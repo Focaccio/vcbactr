@@ -18,3 +18,6 @@ print(output)
 
 output = net_connect.send_command("sh ver | i up")
 print(output)
+
+output = net_connect.send_command("sh inventory raw")
+print(output)
