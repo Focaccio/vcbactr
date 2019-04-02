@@ -19,5 +19,10 @@ print(output)
 output = net_connect.send_command("sh ver | i up")
 print(output)
 
+<<<<<<< HEAD
 output = net_connect.send_command("sh inventory raw")
+=======
+
+output = net_connect.send_command("sh proto")
+>>>>>>> c651c274db43cef15d765658b3a06dd996153d1e
 print(output)
